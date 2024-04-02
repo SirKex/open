@@ -1,0 +1,369 @@
+#navDiv{
+    display: none;
+    height: 50px;
+    background-color: white;
+}
+
+#resDiv{
+    display: flex !important;
+}
+
+#resOne{
+    width: 80%;
+    padding-left: 20px;
+}
+
+#resTwo{
+    width: 20%;
+}
+
+#secUno{
+    height: fit-content;
+}
+
+#BigdivOne{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#UnoBDOne{
+    width: 100%;
+}
+
+#UnoDivOne{
+    padding-left: 40px;
+    text-align: center;
+}
+
+#UnoPOne{
+    font-size: 36px;
+}
+
+#UnoPTwo{
+    width: 87%;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+#imgOne{
+    width: 90%;
+    height: 188px;
+    padding-left: 60px;
+    margin-bottom: 0;
+}
+
+#UnoBDTwo, #divSOne{
+    width: 71%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#divSOne{
+    height: 461px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+#UnoBDThree{
+    flex-direction: column;
+}
+
+#UnodivSOne{
+    padding-left: 0;
+}
+
+#UnodivSTwo{
+    text-align: center;
+}
+
+#UnodivSOne, #UnodivSTwo, #UnodivSThree{
+    width: 66% !important;
+    justify-content: center;
+}
+
+#imgTwo{
+    margin-top: 20px;
+}
+
+#secTwo{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#TwoBDOne{
+    width: 100% !important;
+    padding-left: 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+#TwoIcon{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#TwoPOne, #TwoPTwo{
+    margin-bottom: 0 !important;
+}
+
+#TwoPOne{
+    font-size: 13px;
+}
+
+#TwoPTwo{
+    font-size: 38px;
+}
+
+#TwoPThree{
+    font-size: 14px;
+}
+
+#TwoPFour{
+    font-size: 19px;
+    width: 80%;
+    margin-left: 70px;
+}
+
+#TwoBDTwo{
+    width: 100% !important;
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#TwoPFive{
+    width: 70%;
+}
+
+#Twodiv{
+    flex-direction: column;
+}
+
+#ThreeBD{
+    padding: 0;
+}
+
+#secFour{
+    flex-direction: column-reverse;
+    padding-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#FourBDTwo, #FourBDOne{
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-top: 0;
+}
+
+#FourPFour{
+    width: 100%;
+    font-size: 40px;
+}
+
+#FourPFive{
+    width: 86%;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+#FourBDOne{
+    padding-top: 70px !important;
+}
+
+#FourPOne{
+    font-size: 20px;
+    width: 56%;
+    padding-left: 80px;
+    text-align: left;
+    margin-bottom: 0 !important;
+}
+
+#FourDiv{
+    margin-left: 0 !important;
+}
+
+#FourDivTwo{
+    margin-top: -40px !important;
+}
+
+#FourPTwo, #FourPThree{
+    text-align: left;
+    padding-left: 80px;
+}
+
+#FourDivImg{
+    margin-left: 40px;
+}
+
+#FourImgTwo{
+    margin-bottom: 10px;
+}
+
+#secFive{
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+
+#FiveDivOne{
+    width: 100% !important;
+}
+
+#FivePOne, #FivePOneB{
+    font-size: 38px;
+    text-align: center;
+}
+
+#FivePOne{
+    margin-bottom: 0;
+}
+
+#FivePOneB{
+    margin-bottom: 60px;
+}
+
+#FivePTwo, #FivePTwoB{
+    font-size: 37px;
+}
+
+#FivePThree{
+    font-size: 16px;
+}
+
+#FiveBDTwo{
+    width: 100% !important;
+}
+
+#FiveImg{
+    width: 80%;
+}
+
+#secSix{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#SixPOne{
+    font-size: 40px;
+}
+
+#SixPTwo{
+    width: 75%;
+    font-size: 17px;
+}
+
+#secStar{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#Float{
+    padding-top: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -250px;
+    padding-left: 0;
+}
+
+#FloatPOne{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#FloatBD{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#DivFloat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#FloatPTwo{
+    width: 100%;
+}
+
+#FloatPThree, #FloatPThreeC{
+    width: 90%;
+}
+
+#FloatPThreeB{
+    width: 92%;
+}
+
+#StarDiv{
+    padding-left: 0;
+    flex-direction: column;
+}
+
+#StarBop, #StarDot{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#StarPOne{
+    font-size: 40px;
+}
+
+#StarPTwo{
+    width: 100%;
+    font-size: 16px;
+}
+
+#StarButton{
+    margin-bottom: 50px;
+}
+
+#StarDot{
+    padding-left: 0 !important;
+}
+
+#EPOne{
+    font-size: 40px;
+}
+
+#EBD{
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+#EDiv > ul{
+    flex-wrap: wrap;
+}
+
+#EndDiv > ul{
+    width: 90%;
+}
+
+#FootP{
+    margin-bottom: 80px;
+}
+
+#Fixedbutton{
+    display: inherit;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+

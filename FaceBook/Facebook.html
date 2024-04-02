@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Facebook.css">
+    <link rel="stylesheet" href="./Facebook (Media Queries).css" media="(max-width:700px)">
+</head>
+<body>
+    <section id="sec" class="d-flex">
+        <div id="DivOne">
+            <p id="POne" class="text-primary fw-bold mb-0">facebook</p>
+            <p id="PTwo" class="fs-3" style="width: 110%;">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div id="BD" style="width: 45%;">
+            <div id="DivTwo" class="w-100">
+                <input id="input" type="text" placeholder="Email address or phone number">
+                <input id="input" type="text" placeholder="Password">
+                <button id="ButtonOne">Log in</button>
+                <p class="text-center text-primary">Forgotten password?</p>
+                <hr>
+                <div class="d-flex align-items-center justify-content-center">                  
+                    <button type="button" id="ButtonTwo" class="btn btn-success px-3 py-2 mt-2 fs-6 fw-semibold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Create new account
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <!-- Vertically centered modal -->  
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <p id="PEnd" class="text-center mt-4" style="font-size: 14px;"><span class="fw-semibold">Create a Page</span> for a celebrity, brand or business.</p>
+        </div>
+    </section>
+</body>
+</html>

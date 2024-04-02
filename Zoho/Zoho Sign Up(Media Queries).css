@@ -1,0 +1,13 @@
+#POne, #PTwo, #PThree, #PFour, #button, #input, #Div, #PFive{
+    width: 70%;
+}
+
+#POne{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#PThree{
+    margin-top: 10px;
+}

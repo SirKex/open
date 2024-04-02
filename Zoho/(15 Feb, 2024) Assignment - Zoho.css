@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navDiv{
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    z-index: 6;
+}
+
+#navbarText{
+    font-size: 17.5px;
+    font-weight: 700;
+}
+
+#navButton:hover{
+    background-color: white;
+    color: steelblue;
+}
+
+#resDiv{
+    display: none !important;
+}
+
+#secUno{
+    background-color: rgb(248, 249, 251) !important;
+}
+
+#UnoBDOne{
+    width: 65%;
+    padding-top: 86px;
+}
+
+#UnoDivOne{
+    padding-left: 141px;
+}
+
+#UnoPOne{
+    font-size: 54px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+    margin-bottom: 0px;
+}
+
+#UnoPTwo{
+    width: 71%;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+#UnoUnder:hover{
+    color: steelblue;
+}
+
+#UnoButtonOne, #UnoButtonTwo{
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(246, 0, 20);
+}
+
+#UnoButtonTwo{
+    background-color: rgb(5, 108, 184);
+    color: white;
+}
+
+#imgOne{
+    width: 100%;
+    height: 308px;
+    margin-bottom: 118px;
+}
+
+#UnoBDTwo{
+    width: 26%;
+    height: 100%;
+    margin-top: 86px;
+    margin-left: -28px;
+    padding-top: 30px;
+    border-radius: 7px;
+    background-color: white;
+    z-index: 5;
+}
+
+#UnodivIcon{
+    width: 20%;
+    margin-top: 10px;
+    color: steelblue;
+}
+
+#ImgIcon{
+    width: 60%;
+}
+
+#ImgIconTwo{
+    width: 70%;
+}
+
+#UnodivCon{
+    width: 64%;
+}
+
+#UnodivChev{
+    width: 16%;
+    display: flex;
+    align-items: center;
+}
+
+#UnoPThree{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: rgb(1, 1, 1);
+}
+
+#UnoPFour{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 26px;
+}
+
+#UnodivThree{
+    padding-left: 40px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: rgb(5, 108, 184);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#divSOne{
+    width: 75%;
+    height: 220px;
+    margin-left: 180px;
+    margin-bottom: -110px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 5;
+    position: relative;
+}
+
+#PDawg{
+    margin-left: -200px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    font-size: 10px;
+    background-color: rgb(68, 151, 82);
+    width: 30%;
+    color: white;
+    text-align: center;
+}
+
+#DSImg{
+    width: 80px;
+    height: 80px;
+}
+
+#SPOne{
+    padding-top: 15px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#SPTwo{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#imgTwo{
+    margin-top: 40px;
+    width: 300px;
+    height: 178px;
+}
+
+#secTwo{
+    background-color: gold;
+    padding-top: 200px;
+    padding-bottom: 120px;
+}
+
+#TwoBDOne{
+    padding-left: 120px;
+}
+
+#Cube{
+    width: 80px;
+    margin-right: 50px;
+}
+
+#TwoPOne{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#TwoPTwo{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#TwoPThree, #TwoPFour{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#TwoBDTwo{
+    padding-left: 150px;
+}
+
+#imgThree{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
+
+#TwoPFive{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+#imgFour{
+    width: 90px;
+    height: 106px;
+}
+
+#TwoSpanOne{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#TwoSpanTwo{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#secThree{
+    background-color: rgb(248, 249, 251) !important;
+    padding-top: 90px;
+    height: 423px;
+}
+
+#ThreeBD{
+    margin-top: 50px;
+    padding-left: 111px;
+    padding-right: 111px;
+}
+
+#ThreeImgOne{
+    width: 110px;
+    height: 40px;
+}
+
+#ThreeImgTwo{
+    width: 69px;
+    height: 34px;
+}
+
+#ThreeImgThree{
+    width: 107px;
+    height: 45px;
+}
+
+#ThreeImgFour{
+    width: 93px;
+    height: 36px;
+}
+
+#ThreeImgFive{
+    width: 33px;
+    height: 36px;
+}
+
+#divFace{
+    width: 95px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(1, 1, 1);
+}
+
+#secFour{
+    padding-top: 135px;
+}
+
+#FourBDOne{
+    padding-left: 216px;
+}
+
+#FourImgOne{
+    width: 525px;
+    height: 305px;
+}
+
+#FourImgTwo{
+    width: 100px;
+    height: 118px;
+}
+
+#FourPOne{
+    width: 55%;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#FourPTwo{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: rgb(1, 1, 1);
+}
+
+#FourPThree{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+#FourBDTwo{
+    padding-left: 105px;
+    padding-top: 70px;
+}
+
+#FourPFour{
+    width: 60%;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#FourPFive{
+    width: 68%;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#secFive{
+    background-color: rgb(0, 96, 180);
+    padding-left: 121px;
+    padding-top: 120px;
+    color: white;
+    font-weight: 400;
+    height: fit-content;
+}
+
+#FivePOne, #FivePOneB{
+    font-size: 50px;
+}
+
+#FiveBD{
+    width: 627px;
+    height: 298px;
+}
+
+#FiveDiv{
+    margin-bottom: 42px;
+}
+
+#FivePTwo, #FivePTwoB{
+    width: 125px;
+    height: 68px;
+    font-size: 45px;
+}
+
+#FivePTwoB{
+    margin-left: 63px;
+}
+
+#FiveDivTwo{
+    margin-left: 18px;
+}
+
+#FivePThree{
+    width: 94px;
+    height: 57px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#FiveButton{
+    width: 218px;
+    height: 54px;
+    font-size: 14px;
+    margin-left: 63px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#FiveImg{
+    width: 100%;
+}
+
+#secSix{
+    padding-top: 130px;
+    padding-bottom: 176px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#SixImg{
+    width: 69px;
+    height: 70px;
+}
+
+#SixPOne{
+    font-size: 44px;
+    color: rgb(1, 1, 1);
+}
+
+#SixPTwo{
+    width: 50%;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+#SixButton{
+    font-size: 14px;
+    color: rgb(2, 98, 169);
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid rgb(36, 126, 192);
+}
+
+#Banner{
+    width: 100%;
+}
+
+#secStar{
+    background-color: rgb(248, 249, 251);
+    padding-bottom: 101px;
+}
+
+#Float{
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-top: 121px;
+    padding-bottom: 81px;
+    padding-left: 85px;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: -210px;
+    position: relative;
+}
+
+#FloatPOne{
+    font-size: 44px;
+    color: rgb(1, 1, 1);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#DivFloat{
+    margin-top: 80px;
+}
+
+#FloatImg{
+    width: 75px;
+    height: 75px;
+}
+
+#FloatPTwo{
+    width: 70%;
+    font-size: 30px;
+    color: rgb(1, 1, 1);
+}
+
+#FloatPThree, #FloatPThreeB, #FloatPThreeC{
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+#FloatPThree{
+    width: 72%;
+}
+
+#FloatPThreeB{
+    width: 80%;
+}
+
+#FloatPThreeC{
+    width: 73%;
+}
+
+#FloatButton{
+    margin-top: 50px;
+    background-color: rgb(5, 108, 184);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+#StarDiv{
+    margin-top: 110px;
+    padding-left: 241px;
+    font-weight: 400;
+}
+
+#Forbes{
+    width: 80px;
+    height: 63px;
+}
+
+#StarPOne{
+    font-size: 44px;
+    color: rgb(1, 1, 1);
+}
+
+#StarPTwo{
+    width: 92%;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+#StarImg{
+    width: 300px;
+    height: 409px;
+}
+
+#StarButton{
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(2, 98, 169);
+    border: 1px solid rgb(2, 98, 169);
+}
+
+#secEight{
+    background-color: rgb(243, 245, 249);
+    padding-top: 71px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#EPOne{
+    font-size: 44px;
+    color: rgb(1, 1, 1);
+}
+
+#EPTwo{
+    font-size: 32px;
+    color: rgb(51, 51, 51);
+}
+
+#EButton{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 90px;
+}
+
+#EBD{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+#EPThree{
+    font-size: 24px;
+    color: rgb(1, 1, 1);
+}
+
+#EPFour{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+
+#EPFour:hover{
+    color: rgb(5, 108, 184);
+}
+
+#EDiv > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#EDiv > ul > li{
+    margin-bottom: 10px;
+}
+
+#EICons{
+    margin-top: 90px;
+}
+
+#EndDiv > ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+}
+
+#EndDiv > ul > li{
+    margin-right: 15px;
+}
+
+#FootImg{
+    width: 80px;
+    height: 39px;
+    color: white;
+    margin-top: 40px;
+}
+
+#FootP{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#Fixedbutton{
+    display: none;
+}
